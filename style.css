@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Metrophobic&family=Quicksand&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    
+    background-color: rgb(110, 76, 43);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0 30px;    
+}
+
+.logoKaiteki {
+    height: 100%;
+}
+
+.navbar,
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar{
+    gap: 100px;
+}
+
+.navbar-list{
+    gap: 30px;
+}
+
+.navbar-list a{
+    color: rgb(182, 187, 187);
+    font-size: 14px;
+}
+
+.navbar-list li:first-child > a {
+    color: var(--text-white);
+    font-weight: 600;
+}
