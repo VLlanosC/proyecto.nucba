@@ -11,7 +11,7 @@
 
 header {
     
-    background: linear-gradient(to bottom right, #403a3e, #be5869);
+    background: linear-gradient(90deg, rgba(15,94,126,1) 0%, rgba(74,152,147,1) 49%, rgba(14,98,77,1) 100%);
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,8 @@ header {
 
 .navbar-list a{
     color: rgb(182, 187, 187);
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .navbar-list li:first-child > a {
@@ -50,7 +51,7 @@ header {
 }
 
 main{
-    background: linear-gradient(to bottom right, #be5869, #403a3e);
+    background: linear-gradient(90deg, rgba(15,94,126,1) 0%, rgba(74,152,147,1) 49%, rgba(14,98,77,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,7 +60,7 @@ main{
     width: 100%;
 }
 
-#hero{
+#land{
     margin-top: 65px;
     padding: 70px 0;
     max-width: 1200px;
@@ -68,20 +69,20 @@ main{
     align-items: center;
 }
 
-.hero-info{
+.land-info{
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
 }
 
-.hero-info h1{
+.land-info h1{
     font-size: 45px;
     width: 80%;
     min-width: 500px;
     font-weight: 500;
 }
-.hero-info p{
+.land-info p{
     font-size: 15px;
     width: 70%;
 }
@@ -98,4 +99,69 @@ main{
 #resumen-info p{
     font-size: 25px;
     width: 70%;
+}
+
+#advantages{
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.advantages-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#advantages h1{
+    font-size: 45px;
+    width: 100%;
+    max-width: 1200px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.advantages-info p{
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    width: 70%;
+    margin-top: 50px;
+    padding: 30px 30px;
+}
+
+#pie-de-pagina{
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(15,94,126,1) 0%, rgba(74,152,147,1) 49%, rgba(14,98,77,1) 100%);
+    flex-direction: column;
+}
+
+.footer-info{
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+
+.redes-footer-iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.redes-footer-iconos li{
+    padding: 20px;
 }
